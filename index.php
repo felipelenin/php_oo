@@ -4,8 +4,11 @@ require_once "OO/Car.php";
 
 $ferrari = new Car;
 $ferrari->brand = "Ferrari";
-$ferrari->color = "Yellow";
+$ferrari->color = "Yellow"; $_POST['brand_car'];
 $ferrari->engine = 300;
+
+
+<input type="text" name="brand_car" id="">
 
 $mustang = new Car;
 $mustang->brand = "Mustange";
