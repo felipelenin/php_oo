@@ -1,13 +1,11 @@
 <?php
 
-class Car{
-    public $brand;
-    public $color;
-    public $engine;
+require_once "Vehicle.php";
 
-    public function getEngine(){
-        return  $this->engine.' cavalos de potência';
-    }
+class Car extends Vehicle {
+   
+    public $doors;
+
 }
 
 
